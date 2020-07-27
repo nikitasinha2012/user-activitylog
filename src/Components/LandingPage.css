@@ -1,3 +1,6 @@
+body{
+    font-family: 'Comfortaa', cursive;
+}
 .ant-card-bordered{
     position: absolute;
     top: 50%;
@@ -5,10 +8,53 @@
     -ms-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
+    border: 1px solid black;
+    }
+    .ant-card-head{
+        border-bottom: 1px solid black;
     }
     .ant-card-head-title{
     text-align: center;
+   
     }
     li {
-         cursor: pointer; 
-        }
+    cursor: pointer; 
+    color: cornflowerblue;
+    font-size: 16px;
+    }
+    .ant-modal-title  {
+        text-align: center;
+        font-size: 24px;
+       
+    }  
+    h4{
+        text-align: center; 
+        color: cornflowerblue;
+    }
+    h2{
+        font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: darkblue;
+
+    }
+    
+    input{
+       
+        margin-left: 93px;
+    }
+    p{
+        margin-top: 45px;
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+        color: darkblue;
+
+    }
+    .ant-btn-primary{
+        margin-top: 2px;
+        height: 30px;
+   
+    margin-left: 7px;
+}
+    

@@ -5,20 +5,24 @@
 			"real_name": "Egon Spengler",
 			"tz": "America/Los_Angeles",
 			"activity_periods": [{
-					"start_time": "Feb 1 2020  1:33PM",
+					"start_time": "Feb 1 2020 1:33PM",
 					"end_time": "Feb 1 2020 1:54PM"
 				},
 				{
-					"start_time": "Mar 1 2020  11:11AM",
+					"start_time": "Mar 1 2020 11:11AM",
 					"end_time": "Mar 1 2020 2:00PM"
 				},
 				{
-					"start_time": "Mar 16 2020  5:33PM",
+					"start_time": "Mar 16 2020 5:33PM",
 					"end_time": "Mar 16 2020 8:02PM"
 				},
 				{
-					"start_time": "July 25 2020  5:33PM",
-					"end_time": "July 25 2020 8:02PM"
+					"start_time": "Jul 27 2020 5:33PM",
+					"end_time": "Jul 27 2020 8:02PM"
+				},
+				{
+					"start_time": "Jul 28 2020 10:33AM",
+					"end_time": "Jul 28 2020 8:02PM"
 				}
 			]
 		},
@@ -27,16 +31,28 @@
 			"real_name": "Glinda Southgood",
 			"tz": "Asia/Kolkata",
 			"activity_periods": [{
-					"start_time": "Feb 1 2020  1:33PM",
+					"start_time": "Feb 1 2020 1:33PM",
 					"end_time": "Feb 1 2020 1:54PM"
 				},
 				{
-					"start_time": "Mar 1 2020  11:11AM",
+					"start_time": "Mar 1 2020 11:11AM",
 					"end_time": "Mar 1 2020 2:00PM"
 				},
 				{
-					"start_time": "Mar 16 2020  5:33PM",
+					"start_time": "Mar 16 2020 5:33PM",
 					"end_time": "Mar 16 2020 8:02PM"
+				},
+				{
+					"start_time": "Jul 26 2020 5:33PM",
+					"end_time": "Jul 26 2020 8:02PM"
+				},
+				{
+					"start_time": "Jul 27 2020 5:33PM",
+					"end_time": "Jul 27 2020 8:02PM"
+				},
+				{
+					"start_time": "Jul 28 2020 2:33PM",
+					"end_time": "Jul 28 2020 8:02PM"
 				}
 			]
 		},
@@ -45,16 +61,24 @@
 			"real_name": "Seema Singh",
 			"tz": "Asia/Kolkata",
 			"activity_periods": [{
-					"start_time": "Feb 1 2020  1:33PM",
+					"start_time": "Feb 1 2020 1:33PM",
 					"end_time": "Feb 1 2020 1:54PM"
 				},
 				{
-					"start_time": "Mar 1 2020  11:11AM",
+					"start_time": "Mar 1 2020 11:11AM",
 					"end_time": "Mar 1 2020 2:00PM"
 				},
 				{
-					"start_time": "Mar 16 2020  5:33PM",
+					"start_time": "Mar 16 2020 5:33PM",
 					"end_time": "Mar 16 2020 8:02PM"
+				},
+				{
+					"start_time": "Jul 27 2020 5:33PM",
+					"end_time": "Jul 27 2020 8:02PM"
+				},
+				{
+					"start_time": "Jul 28 2020 11:33AM",
+					"end_time": "Jul 28 2020 8:02PM"
 				}
 			]
 		},
@@ -63,16 +87,24 @@
 			"real_name": "Angela Watson",
 			"tz": "Asia/Kolkata",
 			"activity_periods": [{
-					"start_time": "Feb 1 2020  1:33PM",
+					"start_time": "Feb 1 2020 1:33PM",
 					"end_time": "Feb 1 2020 1:54PM"
 				},
 				{
-					"start_time": "Mar 1 2020  11:11AM",
+					"start_time": "Mar 1 2020 11:11AM",
 					"end_time": "Mar 1 2020 2:00PM"
 				},
 				{
-					"start_time": "Mar 16 2020  5:33PM",
+					"start_time": "Mar 16 2020 5:33PM",
 					"end_time": "Mar 16 2020 8:02PM"
+				},
+				{
+					"start_time": "Jul 27 2020 5:33PM",
+					"end_time": "Jul 27 2020 8:02PM"
+				},
+				{
+					"start_time": "Jul 28 2020 3:33PM",
+					"end_time": "Jul 28 2020 8:02PM"
 				}
 			]
 		},
@@ -81,16 +113,24 @@
 			"real_name": "Dwight Schrute",
 			"tz": "Asia/Kolkata",
 			"activity_periods": [{
-					"start_time": "Feb 1 2020  1:33PM",
+					"start_time": "Feb 1 2020 1:33PM",
 					"end_time": "Feb 1 2020 1:54PM"
 				},
 				{
-					"start_time": "Mar 1 2020  11:11AM",
+					"start_time": "Mar 1 2020 11:11AM",
 					"end_time": "Mar 1 2020 2:00PM"
 				},
 				{
-					"start_time": "Mar 16 2020  5:33PM",
+					"start_time": "Mar 16 2020 5:33PM",
 					"end_time": "Mar 16 2020 8:02PM"
+				},
+				{
+					"start_time": "Jul 27 2020 5:33PM",
+					"end_time": "Jul 27 2020 8:02PM"
+				},
+				{
+					"start_time": "Jul 28 2020 5:33PM",
+					"end_time": "Jul 28 2020 9:02PM"
 				}
 			]
 		},
@@ -99,16 +139,24 @@
 			"real_name": "Micheal Scott",
 			"tz": "Asia/Kolkata",
 			"activity_periods": [{
-					"start_time": "Feb 1 2020  1:33PM",
+					"start_time": "Feb 1 2020 1:33PM",
 					"end_time": "Feb 1 2020 1:54PM"
 				},
 				{
-					"start_time": "Mar 1 2020  11:11AM",
+					"start_time": "Mar 1 2020 11:11AM",
 					"end_time": "Mar 1 2020 2:00PM"
 				},
 				{
-					"start_time": "Mar 16 2020  5:33PM",
+					"start_time": "Mar 16 2020 5:33PM",
 					"end_time": "Mar 16 2020 8:02PM"
+				},
+				{
+					"start_time": "Jul 27 2020 5:33PM",
+					"end_time": "Jul 27 2020 8:02PM"
+				},
+				{
+					"start_time": "Jul 28 2020 7:33PM",
+					"end_time": "Jul 28 2020 8:02PM"
 				}
 			]
 		},
@@ -117,16 +165,24 @@
 			"real_name": "Jim Halpert",
 			"tz": "Asia/Kolkata",
 			"activity_periods": [{
-					"start_time": "Feb 1 2020  1:33PM",
+					"start_time": "Feb 1 2020 1:33PM",
 					"end_time": "Feb 1 2020 1:54PM"
 				},
 				{
-					"start_time": "Mar 1 2020  11:11AM",
+					"start_time": "Mar 1 2020 11:11AM",
 					"end_time": "Mar 1 2020 2:00PM"
 				},
 				{
-					"start_time": "Mar 16 2020  5:33PM",
+					"start_time": "Mar 16 2020 5:33PM",
 					"end_time": "Mar 16 2020 8:02PM"
+				},
+				{
+					"start_time": "Jul 27 2020 5:33PM",
+					"end_time": "Jul 27 2020 10:02PM"
+				},
+				{
+					"start_time": "Jul 28 2020 5:33PM",
+					"end_time": "Jul 28 2020 8:02PM"
 				}
 			]
 		}
