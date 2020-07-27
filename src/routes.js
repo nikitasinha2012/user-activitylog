@@ -9,7 +9,6 @@ const Routes = () => {
         <Router>
             <Switch>
             <Route path="/" component={LandingPage} exact={true} />
-            
             </Switch>
         </Router>
     );

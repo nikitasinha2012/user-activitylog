@@ -35,7 +35,7 @@ body{
         font-size: 15px;
     text-align: center;
     font-weight: bold;
-    color: darkblue;
+    color: black;
 
     }
     
@@ -48,7 +48,7 @@ body{
         font-size: 15px;
         font-weight: bold;
         text-align: center;
-        color: darkblue;
+        color: black;
 
     }
     .ant-btn-primary{

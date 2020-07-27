@@ -14,14 +14,12 @@ class LandingPage extends Component {
             visible: false,
             visibleNested: false,
             curTime: new Date(),
-            selectedDate: new Date(),
+            selectedDate: new Date()
         }
         this.handleChange = this.handleChange.bind(this);
 
     }
     componentDidMount() {
-
-
         fetch('data/file.json')
             .then((response) => response.json())
             .then((data) => {
@@ -31,8 +29,7 @@ class LandingPage extends Component {
             })
     }
 
-    showModal = (id, e) => {
-
+    showModal = (id) => {
         this.setState({
             visible: true,
             selectedUserDetails: this.state.userDetails.filter((x) => x.id === id),
@@ -54,7 +51,7 @@ class LandingPage extends Component {
             visibleNested: false
         });
     };
-   
+
     handleChange(event) {
         this.setState({
             selectedDate: event.target.value
@@ -69,9 +66,8 @@ class LandingPage extends Component {
 
     render() {
         const { userDetails, selectedDate, curTime } = this.state;
-        const convertedPresentDate = dateFormat(curTime, "mmm dd yyyy");
+        const convertedPresentDate = dateFormat(curTime, "mmm dd yyyy"); 
         const convertedSelectedDate = dateFormat(selectedDate, "mmm dd yyyy");
-        console.log(this.state.selectedUserDetails)
         return (
             <Card title="LIST OF USERS" style={{ width: 400, height: 400 }}>
                 {
@@ -106,7 +102,7 @@ class LandingPage extends Component {
                                                                     <h4>{startTime}</h4>
                                                                     <h4>{endTime}</h4>
                                                                 </div>
-                                                                
+
                                                             )
                                                         }
                                                     }
@@ -115,7 +111,7 @@ class LandingPage extends Component {
                                             )
                                         })
                                     }
-                                   
+
                                     <div className="wrapper">
                                         <p>To view activities, enter/select date below.</p>
                                         <input
@@ -133,14 +129,14 @@ class LandingPage extends Component {
                                         visible={this.state.visibleNested}
                                         onOk={this.handleOk}
                                         onCancel={this.handleCancel}
-                                      
+
                                     >
                                         {
                                             this.state.selectedUserDetails.map((item, index) => {
                                                 return (
                                                     <div key={index}>
-                                                        {item.activity_periods.map((item, index) => {
-                                                            const startTime = item.start_time;
+                                                        {item.activity_periods.map((c, i) => {
+                                                            const startTime = c.start_time;
                                                             var res = startTime.split(" ");
                                                             res.pop();
                                                             const convertedUserDate = res.join(" ");
@@ -148,7 +144,7 @@ class LandingPage extends Component {
                                                             const selectedValue = new Date(convertedSelectedDate)
                                                             if (userValue.valueOf() === selectedValue.valueOf()) {
                                                                 return (
-                                                                    <div key={index}>
+                                                                    <div key={i}>
                                                                         <h4>{startTime}</h4>
                                                                     </div>
                                                                 )
